@@ -430,7 +430,7 @@ ul {
   position: relative;
   width: 2.5rem;
   height: 2.5rem;
-  margin-left: 80px;
+  margin-left: 50px;
 }
 
 .header-cart__button {
@@ -457,7 +457,7 @@ ul {
 .logo {
   display: block;
   background-repeat: no-repeat;
-  background-image: url(../../../img/logo.svg);
+  background-image: url(img/logo.svg);
   width: 120px;
   height: 32px;
   margin-right: 120px;
@@ -885,7 +885,7 @@ body {
 
 .slider-text__description {
   color: rgba(39, 48, 15, 0.7);
-  margin-bottom: 45px;
+  margin-bottom: 5px;
   line-height: 1.5;
 }
 
@@ -1853,7 +1853,7 @@ body {
     height: 2.5rem;
     background-color: transparent;
     border: 1px solid #27300f;
-    background-image: url(../../../img/tel.svg);
+    background-image: url(img/tel.svg);
     background-repeat: no-repeat;
     border-radius: 100%;
     background-size: 1rem 0.87rem;
@@ -1867,7 +1867,7 @@ body {
     height: 2.5rem;
     background-color: transparent;
     border: 1px solid #27300f;
-    background-image: url(../../../img/menu.svg);
+    background-image: url(img/menu.svg);
     background-repeat: no-repeat;
     border-radius: 100%;
     background-size: 1rem 0.87rem;
@@ -1878,7 +1878,7 @@ body {
   .header-cart__button {
     background-color: transparent;
     border: 1px solid #27300f;
-    background-image: url(../../../img/cart-black.svg);
+    background-image: url(img/cart-black.svg);
   }
 
   .header-cart__count {
