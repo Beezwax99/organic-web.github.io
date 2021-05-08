@@ -32,42 +32,20 @@
     </head>
     <body>
         <section class="section-main">
-            <header class="header">
-    <div class="header-item">
-       <div class="logo"></div>
-        <nav>
-            <ul class="nav">
-              <li class="nav-item"><a class="nav-link" href="">Наша продукция</a></li>  
-              <li class="nav-item"><a class="nav-link" href="">О компании</a></li> 
-              <li class="nav-item"><a class="nav-link" href="">Новинки</a></li> 
-              <li class="nav-item"><a class="nav-link" href="">Каталог</a></li> 
-              <li class="nav-item"><a class="nav-link" href="">Доставка</a></li> 
-              <li class="nav-item"><a class="nav-link" href="">Контакты</a></li> 
-            </ul>
-        </nav>
-    </div>
-    <div class="header-item" >
-        <a class="header__tel" href="tel:+79453425555">+7 945 342 55 55</a>
-        <button type="button" class="header__menu" data-toggle="modal" data-target="#menuModal"></button>
-     <div class="header-cart">
-         <button class="header-cart__button" type="button"></button>
-         <span class="header-cart__count">0</span>
-     </div>
-    </div> 
-</header>
+            @@include("../blocks/modules/header/header.html")
             <div class="wrapper">
                 <div class="main">
                    <div class="main-text">
                        <h1 class="title">Здоровая еда -<br> <span>это просто</span>!</h1>
                        <div class="ml">
                          <p class="main-text__description">Сеть магазинов полезных продуктов питания, производство которых основано на&nbsp;принципах и&nbsp;стандартах органического чистых продуктов</p>
-                         <img class="main-text__image" src="../img/image-main.png" alt="">   
+                         <img class="main-text__image" src="img/image-main.png" alt="">   
                          <a class="btn" href="">Перейти в каталог</a>
                        </div>
                    </div>
                    <div class="main-visual">
                        <div class="main-visual__image"> 
-                           <img src="../img/image-main.png" alt="">
+                           <img src="img/image-main.png" alt="">
                       </div>
                          <button class="main-visual__btn main-visual__01">
                              Авокадо <span> 134 руб</span>
@@ -82,11 +60,11 @@
                    </div>
                 </div>
             </div>
-            <img class="section-main__image section-main__tomato" src="../img/tomato.png" alt="Tomato">
-            <img class="section-main__image section-main__avocado" src="../img/avocado.png" alt="Avocado">
-            <img class="section-main__image section-main__cucumber" src="../img/cucumber.png" alt="Cucumber">
-            <img class="section-main__image section-main__pepper" src="../img/pepper.png" alt="Pepper">
-            <img class="section-main__image section-main__beans" src="../img/beans.png" alt="Beans">
+            <img class="section-main__image section-main__tomato" src="img/tomato.png" alt="Tomato">
+            <img class="section-main__image section-main__avocado" src="img/avocado.png" alt="Avocado">
+            <img class="section-main__image section-main__cucumber" src="img/cucumber.png" alt="Cucumber">
+            <img class="section-main__image section-main__pepper" src="img/pepper.png" alt="Pepper">
+            <img class="section-main__image section-main__beans" src="img/beans.png" alt="Beans">
         </section>
         <section class="section-stock">
             <div class="wrapper">
@@ -177,7 +155,7 @@
                        <div class="slider-child">
                            <div class="slider-item">
                                <div class="slider-thumb">
-                                   <img class="slider-thumb__image" src="../img/stock/bottle.png" alt="Milk">
+                                   <img class="slider-thumb__image" src="img/stock/bottle.png" alt="Milk">
                                </div>
                                <div class="slider-info">
                                    <h3 class="slider-info__title">Молоко топленое</h3>
@@ -197,7 +175,7 @@
                         <div class="slider-child">
                         <div class="slider-item">
                             <div class="slider-thumb">
-                                <img class="slider-thumb__image" src="../img/stock/egg.png" alt="Egg">
+                                <img class="slider-thumb__image" src="img/stock/egg.png" alt="Egg">
                             </div>
                             <div class="slider-info">
                                 <h3 class="slider-info__title">Яйцо перепелиное</h3>
@@ -217,7 +195,7 @@
                         <div class="slider-child">
                         <div class="slider-item">
                             <div class="slider-thumb">
-                                <img class="slider-thumb__image" src="../img/stock/chicken.png" alt="Chicken">
+                                <img class="slider-thumb__image" src="img/stock/chicken.png" alt="Chicken">
                             </div>
                             <div class="slider-info">
                                 <h3 class="slider-info__title">Куриное филе Оссобуко</h3>
@@ -237,7 +215,7 @@
                         <div class="slider-child">
                             <div class="slider-item">
                                 <div class="slider-thumb">
-                                    <img class="slider-thumb__image" src="../img/stock/bottle.png" alt="Milk">
+                                    <img class="slider-thumb__image" src="img/stock/bottle.png" alt="Milk">
                                 </div>
                                 <div class="slider-info">
                                     <h3 class="slider-info__title">Молоко топленое</h3>
@@ -257,7 +235,7 @@
                         <div class="slider-child">
                             <div class="slider-item">
                                 <div class="slider-thumb">
-                                    <img class="slider-thumb__image" src="../img/stock/egg.png" alt="Egg">
+                                    <img class="slider-thumb__image" src="img/stock/egg.png" alt="Egg">
                                 </div>
                                 <div class="slider-info">
                                     <h3 class="slider-info__title">Яйцо перепелиное</h3>
@@ -277,7 +255,7 @@
                         <div class="slider-child">
                             <div class="slider-item">
                                 <div class="slider-thumb">
-                                    <img class="slider-thumb__image" src="../img/stock/chicken.png" alt="Chicken">
+                                    <img class="slider-thumb__image" src="img/stock/chicken.png" alt="Chicken">
                                 </div>
                                 <div class="slider-info">
                                     <h3 class="slider-info__title">Куриное филе Оссобуко</h3>
@@ -311,7 +289,7 @@
                 <div class="catalog">
                     <div class="catalog-item">
                         <div class="catalog-thumb">
-                            <img class="catalog-thumb__image" src="../img/stock/bottle.png" alt="Milk">
+                            <img class="catalog-thumb__image" src="img/stock/bottle.png" alt="Milk">
                         </div>
                         <div class="catalog-info">
                             <h3 class="catalog-info__title">Молоко топленое</h3>
@@ -329,7 +307,7 @@
                     </div>
                     <div class="catalog-item">
                         <div class="catalog-thumb">
-                            <img class="catalog-thumb__image" src="../img/stock/yougurt.png" alt="Yougurt">
+                            <img class="catalog-thumb__image" src="img/stock/yougurt.png" alt="Yougurt">
                         </div>
                         <div class="catalog-info">
                             <h3 class="catalog-info__title">Йогурт с черникой</h3>
@@ -347,7 +325,7 @@
                     </div>
                     <div class="catalog-item">
                         <div class="catalog-thumb">
-                            <img class="catalog-thumb__image" src="../img/stock/curd.png" alt="Curd">
+                            <img class="catalog-thumb__image" src="img/stock/curd.png" alt="Curd">
                         </div>
                         <div class="catalog-info">
                             <h3 class="catalog-info__title">Творог</h3>
@@ -365,7 +343,7 @@
                     </div>
                     <div class="catalog-item">
                         <div class="catalog-thumb">
-                            <img class="catalog-thumb__image" src="../img/stock/mozzarella.png" alt="Mozzarella">
+                            <img class="catalog-thumb__image" src="img/stock/mozzarella.png" alt="Mozzarella">
                         </div>
                         <div class="catalog-info">
                             <h3 class="catalog-info__title">Моцарелла </h3>
@@ -383,7 +361,7 @@
                     </div>
                     <div class="catalog-item">
                         <div class="catalog-thumb">
-                            <img class="catalog-thumb__image" src="../img/stock/butter.png" alt="Butter">
+                            <img class="catalog-thumb__image" src="img/stock/butter.png" alt="Butter">
                         </div>
                         <div class="catalog-info">
                             <h3 class="catalog-info__title">Масло сливочное</h3>
@@ -401,7 +379,7 @@
                     </div>
                     <div class="catalog-item">
                         <div class="catalog-thumb">
-                            <img class="catalog-thumb__image" src="../img/stock/thermo-yougurt.png" alt="Thermo-yougurt">
+                            <img class="catalog-thumb__image" src="img/stock/thermo-yougurt.png" alt="Thermo-yougurt">
                         </div>
                         <div class="catalog-info">
                             <h3 class="catalog-info__title">Йогурт термостатный</h3>
@@ -419,7 +397,7 @@
                     </div>
                     <div class="catalog-item">
                         <div class="catalog-thumb">
-                            <img class="catalog-thumb__image" src="../img/stock/cheese.png" alt="Cheese">
+                            <img class="catalog-thumb__image" src="img/stock/cheese.png" alt="Cheese">
                         </div>
                         <div class="catalog-info">
                             <h3 class="catalog-info__title">Сыр</h3>
@@ -437,7 +415,7 @@
                     </div>
                     <div class="catalog-item">
                         <div class="catalog-thumb">
-                            <img class="catalog-thumb__image" src="../img/stock/sous.png" alt="Sous">
+                            <img class="catalog-thumb__image" src="img/stock/sous.png" alt="Sous">
                         </div>
                         <div class="catalog-info">
                             <h3 class="catalog-info__title">Соус для салата</h3>
@@ -506,51 +484,11 @@
                 </div>
             </div>
         </div>
-        <footer class="footer">
-    <div class="wrapper">
-        <div class="box-footer">
-            <div class="logo"></div>
-            <div class="box-footer-item">
-                <div class="box-footer-info">
-                    <ul class="box-footer-list">
-                        <li class="box-footer-list__item"><a class="box-footer-list__link" href="#">Наша продукция</a></li>
-                        <li class="box-footer-list__item"><a class="box-footer-list__link" href="#">Новинки</a></li>
-                        <li class="box-footer-list__item"><a class="box-footer-list__link" href="#">Доставка</a></li>
-                    </ul>
-                </div>
-                <div class="box-footer-info">
-                    <ul class="box-footer-list">
-                        <li class="box-footer-list__item">Москва , ул.Ленинградская 64</li>
-                        <li class="box-footer-list__item">пн-пт с 09:00 до 21:00</li>
-                        <li class="box-footer-list__item">сб-вс с 09:00 до 19:00</li>
-                    </ul>
-                </div>
-                <div class="box-footer-info">
-                    <ul class="box-footer-list">
-                        <li class="box-footer-list__item box-footer-list__tel"><a class="box-footer-list__link" href="tel:+79453425555">+7 945 342 55 55</a></li>
-                        <li class="box-footer-list__item">e-mail:<a class="box-footer-list__link" href="mailto:healthlyfood@mail.ru"> healthlyfood@mail.ru</a></li>
-                    </ul>
-                    <ul class="box-footer-social">
-                        <li class="box-footer-social__item">
-                            <a class="box-footer-social__link box-footer-social__vk" href="#" target="_blank"></a>
-                        </li>   
-                        <li class="box-footer-social__item">
-                            <a class="box-footer-social__link box-footer-social__inst" href="#" target="_blank"></a>
-                        </li>
-                        <li class="box-footer-social__item">
-                            <a class="box-footer-social__link box-footer-social__fb" href="#" target="_blank"></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="box-copyright">
-            <p class="box-copyright__copy">&copy; 2020, Все права защищены</p>
-            <p class="box-copyright__text">Сделано в рамках курса учебной платформы <a class="box-copyright__link" href="https://frontendblok.com/">Frontend Block</a> </p>
-        </div>
-    </div>
-</footer>
+        @@include("../blocks/modules/footer/footer.html")
     </section>
+
+
+    
     <!-- Modal -->
         <div class="modal fade" id="menuModal" tabindex="-1" role="dialog" aria-labelledby="menuModalLabel" aria-hidden="true">
             <div class="modal-dialog">
